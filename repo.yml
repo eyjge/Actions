@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          persist-credentials: true
+          persist-credentials: false
 
       - name: sync scripts
         uses: repo-sync/github-sync@v2
